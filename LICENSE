@@ -1,0 +1,102 @@
+Copyright (c) 2026 Riomoo/Alister [alister at kamikishi dot net]
+
+This work is licensed under the +THYME License
+(Terms for Handing Your Modifications to Everyone).
+
+Definitions
+
+- "The Work" means the collection of files licensed under +THYME.
+- "A Covered File" means any file that is part of the Work, whether or
+  not the file itself carries a license notice.
+- "A Modified File" means a Covered File whose contents you have changed
+  or translated, or any other file that contains a substantial portion
+  copied from a Covered File.
+- "Your Own Files" means files that are neither Covered Files nor
+  Modified Files, even when they are used together with, placed
+  alongside, or take the place of Covered Files (for example content,
+  configuration, data, and new templates, styles, or scripts written
+  without copying a substantial portion of a Covered File).
+- "A Larger Work" means a work that combines Covered Files or Modified
+  Files with Your Own Files.
+- "Built Output" means anything generated from Covered Files or Modified
+  Files rather than written by hand, such as rendered pages and
+  minified, bundled, or compiled assets.
+
+Terms for Covered Files and Modified Files
+
+- You are free to use, modify, and distribute the Work.
+- Every Modified File stays under +THYME. You may not place a Covered
+  File or a Modified File under different terms.
+- If you distribute Covered Files or Modified Files, you must provide
+  their complete source code, in the form best suited to editing them,
+  together with a copy of this license.
+- You must credit the original creator of the Work. This credit must
+  appear with the source of the Covered Files and Modified Files, at
+  minimum in a README file or equivalent documentation file. You must
+  also keep any copyright and license notices already present in them.
+- If your Modified Files change how the Work is built, installed,
+  configured, or operated, including how it works with any external
+  backends or frontends it depends on, you must document those changes
+  clearly enough for someone else to build and operate your version.
+
+Terms for Your Own Files
+
+- Your Own Files are not covered by +THYME. You may license them under
+  any terms you choose, whether open source or proprietary, and you are
+  not required to provide their source code.
+
+Terms for Larger Works
+
+If you distribute a Larger Work, you may do so under any license,
+provided that you:
+
+- Keep the Covered Files and Modified Files within it under +THYME, and
+  include a copy of this license.
+- Credit the original creator of the Work in the Larger Work's
+  documentation.
+- Make it possible to tell which files are Covered Files or Modified
+  Files, for example by keeping them in their own directory or by
+  listing them.
+- Do not impose terms that limit anyone's rights under +THYME in the
+  Covered Files and Modified Files.
+
+Terms for Built Output
+
+- You may use, publish, and distribute Built Output under any terms you
+  choose. +THYME makes no claim on what you publish with it.
+- Built Output generated only from unchanged Covered Files carries no
+  further obligations.
+- If you make Built Output generated from Modified Files available to
+  others, you must make the source code of those Modified Files publicly
+  available under +THYME, and state where to obtain it somewhere
+  reasonably easy to find (for example a page or comment in the Built
+  Output, or the README of a public repository).
+
+Patents and Termination
+
+- Everyone who contributes to a Covered File or Modified File grants
+  you a license to any of their patents that their contribution
+  necessarily infringes, for the purpose of using, modifying, and
+  distributing the Work.
+- If you start a patent claim alleging that the Work infringes a patent,
+  your rights under +THYME end on the day the claim is filed.
+- If you break these terms, your rights under +THYME end. They are
+  restored if you fix the problem within 30 days of becoming aware
+  of it.
+
+Compatibility with Other Licenses
+
+- A Larger Work may be distributed under any license, open source or
+  otherwise, provided the Covered Files and Modified Files remain under
+  +THYME and the terms for Larger Works above are met.
+- The copyright holder may offer the Work under additional licenses.
+  Doing so does not take away rights already granted under +THYME.
+
+This work is provided "as is", without any warranty of any kind,
+express or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose, and non-infringement.
+In no event shall the authors or copyright holders be liable for any
+claim, damages, or other liability arising from the Work or its use.
+
+By copying, modifying, or distributing the Work, you agree to the terms
+of +THYME.
