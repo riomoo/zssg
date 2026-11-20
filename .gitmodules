@@ -1,0 +1,3 @@
+[submodule "vendor"]
+	path = vendor
+	url = https://git.jester-designs.com/riomoo/zssg-vendor.git
