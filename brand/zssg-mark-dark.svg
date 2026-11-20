@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="mt">
+  <title id="mt">ZSSG</title>
+  <defs>
+    <linearGradient id="mg" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFC23D"/><stop offset="1" stop-color="#F4511E"/>
+    </linearGradient>
+    <path id="mz" d="M112 112H352L400 160V176L196 336H400V400H112V336L316 176H112Z"/>
+    <mask id="mm2" maskUnits="userSpaceOnUse" x="-100" y="-100" width="712" height="712">
+      <rect x="-100" y="-100" width="712" height="712" fill="#fff"/>
+      <use href="#mz" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+    </mask>
+    <mask id="mm3" maskUnits="userSpaceOnUse" x="-100" y="-100" width="712" height="712">
+      <rect x="-100" y="-100" width="712" height="712" fill="#fff"/>
+      <use href="#mz" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+      <use href="#mz" transform="translate(22 22)" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g transform="translate(-22 -22)">
+    <g mask="url(#mm3)"><use href="#mz" transform="translate(44 44)" fill="#6B2F18"/></g>
+    <g mask="url(#mm2)"><use href="#mz" transform="translate(22 22)" fill="#B8461C"/></g>
+    <use href="#mz" fill="url(#mg)"/>
+    <path d="M352 112V160H400Z" fill="#FFE7B3"/>
+  </g>
+</svg>

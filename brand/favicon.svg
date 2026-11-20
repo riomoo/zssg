@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="ft">
+  <title id="ft">ZSSG</title>
+  <defs>
+    <linearGradient id="fg" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFC23D"/><stop offset="1" stop-color="#F4511E"/>
+    </linearGradient>
+    <path id="fz" d="M112 112H352L400 160V176L196 336H400V400H112V336L316 176H112Z"/>
+    <mask id="fm2" maskUnits="userSpaceOnUse" x="-100" y="-100" width="712" height="712">
+      <rect x="-100" y="-100" width="712" height="712" fill="#fff"/>
+      <use href="#fz" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+    </mask>
+    <mask id="fm3" maskUnits="userSpaceOnUse" x="-100" y="-100" width="712" height="712">
+      <rect x="-100" y="-100" width="712" height="712" fill="#fff"/>
+      <use href="#fz" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+      <use href="#fz" transform="translate(22 22)" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+    </mask>
+    <style>
+      .b { fill: #F7C9A0 } .m { fill: #F08A4B }
+      @media (prefers-color-scheme: dark) { .b { fill: #6B2F18 } .m { fill: #B8461C } }
+    </style>
+  </defs>
+  <g transform="translate(-22 -22)">
+    <g mask="url(#fm3)"><use href="#fz" class="b" transform="translate(44 44)"/></g>
+    <g mask="url(#fm2)"><use href="#fz" class="m" transform="translate(22 22)"/></g>
+    <use href="#fz" fill="url(#fg)"/>
+    <path d="M352 112V160H400Z" fill="#FFE7B3"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="it">
+  <title id="it">ZSSG</title>
+  <defs>
+    <linearGradient id="ig" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFC23D"/><stop offset="1" stop-color="#F4511E"/>
+    </linearGradient>
+    <path id="iz" d="M112 112H352L400 160V176L196 336H400V400H112V336L316 176H112Z"/>
+    <mask id="im2" maskUnits="userSpaceOnUse" x="-100" y="-100" width="712" height="712">
+      <rect x="-100" y="-100" width="712" height="712" fill="#fff"/>
+      <use href="#iz" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+    </mask>
+    <mask id="im3" maskUnits="userSpaceOnUse" x="-100" y="-100" width="712" height="712">
+      <rect x="-100" y="-100" width="712" height="712" fill="#fff"/>
+      <use href="#iz" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+      <use href="#iz" transform="translate(22 22)" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#FFF6EA"/>
+  <g transform="translate(-22 -22)">
+    <g mask="url(#im3)"><use href="#iz" transform="translate(44 44)" fill="#F7C9A0"/></g>
+    <g mask="url(#im2)"><use href="#iz" transform="translate(22 22)" fill="#F08A4B"/></g>
+    <use href="#iz" fill="url(#ig)"/>
+    <path d="M352 112V160H400Z" fill="#FFE7B3"/>
+  </g>
+</svg>
