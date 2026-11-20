@@ -1,4 +1,6 @@
-# ZSSG — Zig Static Site Generator
+<p align="center">
+  <img src="brand/zssg-logo-dark.svg?raw=true" alt="ZSSG" width="600">
+</p>
 
 A static site generator written in Zig that builds Hugo sites: the same project
 layout, the same config files, the same Go template language and function
