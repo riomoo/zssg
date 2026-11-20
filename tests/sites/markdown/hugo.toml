@@ -1,0 +1,4 @@
+baseURL="http://x/"
+disableKinds=["taxonomy","term","rss","sitemap","section"]
+[markup.goldmark.renderer]
+unsafe=true

@@ -1,0 +1,18 @@
+baseURL = "https://example.org/"
+title = "ML"
+defaultContentLanguage = "en"
+[languages.en]
+languageName = "English"
+weight = 1
+title = "English Site"
+[languages.en.params]
+greeting = "Hello"
+[languages.fr]
+languageName = "Français"
+weight = 2
+title = "Site Français"
+[languages.fr.params]
+greeting = "Bonjour"
+[[languages.fr.menus.main]]
+name = "Accueil"
+pageRef = "/"

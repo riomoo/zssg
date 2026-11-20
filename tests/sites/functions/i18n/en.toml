@@ -1,0 +1,4 @@
+hello = "Hello {{ .Name }}"
+[items]
+one = "{{ .Count }} item"
+other = "{{ .Count }} items"

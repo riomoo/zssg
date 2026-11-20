@@ -1,0 +1,9 @@
+baseURL = "https://example.org/sub/"
+title = "Fx"
+languageCode = "en-US"
+disableKinds = ["rss", "sitemap"]
+[params]
+  Foo = "Bar"
+  list = ["b", "a", "c"]
+  [params.nested]
+    Key = "val"
