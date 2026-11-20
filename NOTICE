@@ -1,0 +1,85 @@
+ZSSG — Zig Static Site Generator
+Copyright (c) 2026 Riomoo/Alister [alister at kamikishi dot net]
+
+ZSSG is licensed under +THYME (see LICENSE).
+
+ZSSG incorporates, translates or bundles the works listed below. Each keeps
+its original copyright notice; the full text of each original licence is in
+the file named. Where a ZSSG file is derived from one of these works, its
+header says so, and the changes are ZSSG's (translation to Zig, adaptation to
+ZSSG's internals, and the modifications described in the file).
+
+
+Translated to Zig (ZSSG source files under src/)
+-------------------------------------------------
+
+Hugo — https://github.com/gohugoio/hugo (v0.170.0)
+  Copyright The Hugo Authors. Apache License 2.0: licenses/Apache-2.0-Hugo.txt
+  Behaviour and parts of the code of Hugo are translated throughout ZSSG
+  (site, page, resource, template function, markup, image and esbuild
+  handling). src/embedded/ holds Hugo's embedded templates, unmodified.
+  src/avif_shim.c follows internal/warpc/genavif/avif.c.
+  These are modified files within the meaning of the Apache License 2.0;
+  Hugo has no NOTICE file of its own.
+
+The Go programming language — https://go.dev (text/template, html/template,
+  time, image/jpeg, image/draw, image/png, golang.org/x/image/webp)
+  Copyright 2009 The Go Authors. BSD 3-Clause: licenses/BSD-3-Clause-Go.txt
+  (golang.org/x/image is under the same licence and copyright.)
+
+goldmark — https://github.com/yuin/goldmark (Markdown, typographer)
+  Copyright (c) 2019 Yusuke Inuzuka. MIT: licenses/MIT-goldmark.txt
+
+tdewolff/minify — https://github.com/tdewolff/minify
+  Copyright (c) 2025 Taco de Wolff. MIT: licenses/MIT-minify.txt
+
+tdewolff/parse — https://github.com/tdewolff/parse
+  Copyright (c) 2015 Taco de Wolff. MIT: licenses/MIT-parse.txt
+
+Chroma — https://github.com/alecthomas/chroma (v2.27.0; the lexer and style
+  definitions in src/chroma/ and src/chroma_data.zig)
+  Copyright (C) 2017 Alec Thomas. MIT: licenses/MIT-chroma.txt
+
+regexp2 — https://github.com/dlclark/regexp2 (the regex dialect Chroma uses)
+  Copyright (c) Doug Clark. MIT: licenses/MIT-regexp2.txt
+
+gift — https://github.com/gohugoio/gift (image resampling, used by Hugo)
+  Copyright (c) 2014-2018 Grigory Dryapak. MIT: licenses/MIT-gift.txt
+
+smartcrop — https://github.com/muesli/smartcrop
+  Copyright (c) 2014 Christian Muehlhaeuser. MIT: licenses/MIT-smartcrop.txt
+
+Unicode CLDR — https://cldr.unicode.org (month and day names, date patterns
+  in src/locales_data.zig)
+  Copyright © 1991-2026 Unicode, Inc. Unicode License v3:
+  licenses/Unicode-3.0-CLDR.txt
+
+VP8 bitstream specification, RFC 6386 (the constant tables in
+  src/vp8_tables.zig, from the reference decoder in the RFC)
+  Copyright (c) 2010, The WebM Project authors (libvpx). BSD 3-Clause:
+  licenses/BSD-3-Clause-libvpx-RFC6386.txt
+
+
+Bundled C/C++ libraries (vendor/, compiled into the zssg binary)
+----------------------------------------------------------------
+
+libavif — https://github.com/AOMediaCodec/libavif (v1.4.2)
+  Copyright 2019 Joe Drago. BSD 2-Clause: vendor/libavif/LICENSE
+
+libaom — https://aomedia.googlesource.com/aom (v3.15.2)
+  Copyright (c) 2016, Alliance for Open Media. BSD 2-Clause:
+  vendor/aom/LICENSE; Alliance for Open Media Patent License 1.0:
+  vendor/aom/PATENTS (a patent licence that applies in addition to
+  the copyright licences above).
+
+dav1d — https://code.videolan.org/videolan/dav1d (1.5.4)
+  Copyright © 2018-2025, VideoLAN and dav1d authors. BSD 2-Clause:
+  vendor/dav1d/COPYING
+
+libyuv — https://chromium.googlesource.com/libyuv/libyuv
+  (commit 9d98aaefe7a5e2710aa6175d44da38892400b381)
+  Copyright 2011 The LibYuv Project Authors. BSD 3-Clause:
+  vendor/libyuv/LICENSE
+
+Binary distributions of ZSSG must be accompanied by LICENSE, this NOTICE,
+the licenses/ directory and the four vendor licence files listed above.

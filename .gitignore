@@ -1,0 +1,6 @@
+zig-out/
+.zig-cache/
+zig-cache/
+public/
+resources/
+.hugo_build.lock
